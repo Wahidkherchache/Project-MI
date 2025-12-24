@@ -130,11 +130,13 @@ print("Comparison Finished.")</code></pre>
     </div>
 
     <div class="footer">
-        developed by: <strong>Abd elouahid</strong> &copy; 2025
+        developed by: <strong>Abd elouahid</strong> &copy; <span id="new">2025</span>
     </div>
 </div>
 
 <script>
+    // تحديث السنة تلقائياً
+    document.getElementById('new').textContent = new Date().getFullYear();
     // تفعيل تلوين الكود
     hljs.highlightAll();
 
